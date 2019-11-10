@@ -1,7 +1,51 @@
 header {
-  padding: 4rem 0;
+  width: 100vw;
+  height: 100px;
+  position: relative;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .user {
+    position: absolute;
+    left: 111px;
+
+    display: flex;
+    align-items: center;
+
+    span {
+      position: absolute;
+      width: 11.5px;
+      height: 11.5px;
+      background: #54d3ad;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      top: 0;
+      left: 21px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.1px;
+      color: #463c6a;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.2px;
+      color: #757f8c;
+    }
+  }
 }

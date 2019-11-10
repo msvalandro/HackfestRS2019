@@ -10,10 +10,12 @@ import { LicitacoesComponent } from './modules/licitacoes/licitacoes.component';
 import { EmpresasComponent } from './modules/empresas/empresas.component';
 import { AtividadesComponent } from './modules/atividades/atividades.component';
 import { ContratosComponent } from './modules/contratos/contratos.component';
+import { LicitacaoComponent } from './modules/licitacao/licitacao.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'licitacoes', component: LicitacoesComponent },
+  { path: 'licitacoes/13', component: LicitacaoComponent },
   { path: 'empresas', component: EmpresasComponent },
   { path: 'atividades', component: AtividadesComponent },
   { path: 'contratos', component: ContratosComponent },
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     LicitacoesComponent,
     EmpresasComponent,
     AtividadesComponent,
-    ContratosComponent
+    ContratosComponent,
+    LicitacaoComponent
   ],
   imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
   providers: [],
