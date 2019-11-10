@@ -6,10 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./licitacoes.component.scss']
 })
 export class LicitacoesComponent implements OnInit {
+  rows = [
+    {
+      numero: '',
+      orgao: 'Comando da Aeronáutica',
+      responsavel: 'Base aérea de Natal',
+      atividade: 'Construção',
+      valor: 'R$ 972.00',
+      status: 'Em análise',
+      risco: '100%'
+    }
+  ];
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
+  handleSearch() {}
 }

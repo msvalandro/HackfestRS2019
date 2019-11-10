@@ -1,1 +1,164 @@
-<p>licitacoes works!</p>
+<section class="licitacoes">
+  <h1 class="licitacoes__title">Licitações</h1>
+  <div class="licitacoes__input">
+    <input
+      type="text"
+      placeholder="Número da licitação"
+      (input)="handleSearch()"
+    />
+    <img src="assets/img/search.svg" alt="Search" />
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Órgão</th>
+        <th>Responsável</th>
+        <th>Atividade</th>
+        <th>Valor</th>
+        <th>Status</th>
+        <th>Nível de risco</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="licitacoes__cell--number">
+          <div>24033/2017</div>
+        </td>
+        <td>
+          <div>Comando da Aeronáutica</div>
+        </td>
+        <td>
+          <div>Base aérea de Natal</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>R$ 972.00</div>
+        </td>
+        <td class="licitacoes__cell--status green">
+          <div><span>Em análise</span></div>
+        </td>
+        <td class="licitacoes__cell--risco red">
+          <div><span>100%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="licitacoes__cell--number">
+          <div>24033/2017</div>
+        </td>
+        <td>
+          <div>Comando da Aeronáutica</div>
+        </td>
+        <td>
+          <div>Base aérea de Natal</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>R$ 972.00</div>
+        </td>
+        <td class="licitacoes__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="licitacoes__cell--risco red">
+          <div><span>99%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="licitacoes__cell--number">
+          <div>24033/2017</div>
+        </td>
+        <td>
+          <div>Comando da Aeronáutica</div>
+        </td>
+        <td>
+          <div>Base aérea de Natal</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>R$ 972.00</div>
+        </td>
+        <td class="licitacoes__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="licitacoes__cell--risco orange">
+          <div><span>75%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="licitacoes__cell--number">
+          <div>24033/2017</div>
+        </td>
+        <td>
+          <div>Comando da Aeronáutica</div>
+        </td>
+        <td>
+          <div>Base aérea de Natal</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>R$ 972.00</div>
+        </td>
+        <td class="licitacoes__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="licitacoes__cell--risco orange">
+          <div><span>74%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="licitacoes__cell--number">
+          <div>24033/2017</div>
+        </td>
+        <td>
+          <div>Comando da Aeronáutica</div>
+        </td>
+        <td>
+          <div>Base aérea de Natal</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>R$ 972.00</div>
+        </td>
+        <td class="licitacoes__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="licitacoes__cell--risco yellow">
+          <div><span>50%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="licitacoes__cell--number">
+          <div>24033/2017</div>
+        </td>
+        <td>
+          <div>Comando da Aeronáutica</div>
+        </td>
+        <td>
+          <div>Base aérea de Natal</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>R$ 972.00</div>
+        </td>
+        <td class="licitacoes__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="licitacoes__cell--risco">
+          <div><span>20%</span></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>

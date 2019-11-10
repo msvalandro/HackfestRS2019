@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
- }
-
+}
 *,
 *::after,
 *::before {
@@ -11,6 +10,10 @@
 
 html {
   box-sizing: border-box;
-  font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
   font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  background-color: #f2f2f2;
 }
