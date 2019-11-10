@@ -1,0 +1,56 @@
+.cards {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+.card--licita--valor {
+  padding-right: 0 !important;
+}
+
+.card--mais {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card__row {
+  margin-bottom: 4px;
+  display: flex;
+  //justify-content: space-between;
+
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.card--id {
+  width: 19px;
+  margin-right: 8px;
+}
+
+.card--licita {
+  width: 105px;
+}
+
+.card--emp {
+  width: 153px;
+}
+
+.card--licita--ativos {
+  width: 88px;
+}
+
+.card--licita--valor {
+  width: 120px;
+}
+
+.card__row span {
+}
+
+.card__span--opacity {
+  opacity: 0.8;
+}

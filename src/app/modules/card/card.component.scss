@@ -1,0 +1,26 @@
+.card {
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 14px 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-bottom: 8px;
+}
+
+.card--laranja {
+  background: linear-gradient(121.67deg, #ff8a00 0%, #ec8001 92.77%, #ff8a00 100%);
+}
+.card--azul {
+  background: linear-gradient(121.67deg, #8676fb 0%, #ab7bff 100%);
+}
+
+.card--verde {
+  background: #10c971;
+}
+.card--rosa {
+  background: linear-gradient(121.67deg, #ff00b8 0%, #d80f83 100%);
+}

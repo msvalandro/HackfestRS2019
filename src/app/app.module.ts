@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { HomeComponent } from './modules/home/home.component';
 import { NavbarComponent } from './modules/navbar/navbar.component';
+import { CardComponent } from './modules/card/card.component';
 import { LicitacoesComponent } from './modules/licitacoes/licitacoes.component';
 import { EmpresasComponent } from './modules/empresas/empresas.component';
 import { AtividadesComponent } from './modules/atividades/atividades.component';
@@ -28,6 +29,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     HomeComponent,
     NavbarComponent,
+    CardComponent,
     LicitacoesComponent,
     EmpresasComponent,
     AtividadesComponent,
