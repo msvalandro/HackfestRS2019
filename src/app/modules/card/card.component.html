@@ -1,0 +1,8 @@
+<div
+  [style.height.px]="height"
+  [style.width.px]="width"
+  [class]="'card card--' + background"
+>
+  <h3>{{ title }}</h3>
+  <ng-content></ng-content>
+</div>
