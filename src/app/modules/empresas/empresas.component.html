@@ -1,1 +1,165 @@
-<p>empresas works!</p>
+<section class="empresas">
+  <h1 class="empresas__title">Empresas</h1>
+  <div class="empresas__input">
+    <input
+      type="text"
+      placeholder="CNPJ ou nome da empresa"
+      (input)="handleSearch()"
+    />
+    <img src="assets/img/search.svg" alt="Search" />
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>CNPJ</th>
+        <th>Nome</th>
+        <th>Data de Abertura</th>
+        <th>Atividade</th>
+        <th>Sócios</th>
+        <th>Status</th>
+        <th>Nível de risco</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="empresas__cell--number">
+          <div>11.057.118/0001-72</div>
+        </td>
+        <td>
+          <div>COREMA ALIMENTOS LTDA</div>
+        </td>
+        <td>
+          <div>08/1991</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>2</div>
+        </td>
+        <td class="empresas__cell--status ">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="empresas__cell--risco red">
+          <div><span>100%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="empresas__cell--number">
+          <div>10.014.760/0001-01</div>
+        </td>
+        <td>
+          <div>JOAO MARINHO DA SILVA & CIA. LTDA.</div>
+        </td>
+        <td>
+          <div>10/2010</div>
+        </td>
+        <td>
+          <div>Alimentação</div>
+        </td>
+        <td>
+          <div>4</div>
+        </td>
+        <td class="empresas__cell--status green">
+          <div><span>Em análise</span></div>
+        </td>
+        <td class="empresas__cell--risco red">
+          <div><span>100%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="empresas__cell--number">
+          <div>01.611.866/0001-00</div>
+        </td>
+        <td>
+          <div>COREMA ALIMENTOS LTDA</div>
+        </td>
+        <td>
+          <div>07/1980</div>
+        </td>
+        <td>
+          <div>Jardinagem</div>
+        </td>
+        <td>
+          <div>1</div>
+        </td>
+        <td class="empresas__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="empresas__cell--risco orange">
+          <div><span>75%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="empresas__cell--number">
+          <div>03.210.559/0001-34</div>
+        </td>
+        <td>
+          <div>MEIODIA REFEICOES EIRELI</div>
+        </td>
+        <td>
+          <div>08/2009</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>5</div>
+        </td>
+        <td class="empresas__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="empresas__cell--risco yellow">
+          <div><span>50%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="empresas__cell--number">
+          <div>07.142.604/0001-11</div>
+        </td>
+        <td>
+          <div>P J REFEICOES COLETIVAS LTDA</div>
+        </td>
+        <td>
+          <div>08/1991</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>3</div>
+        </td>
+        <td class="empresas__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="empresas__cell--risco ">
+          <div><span>30%</span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="empresas__cell--number">
+          <div>18.261.811/0001-01</div>
+        </td>
+        <td>
+          <div>SAMIR CAVALCANTE AUR</div>
+        </td>
+        <td>
+          <div>08/1991</div>
+        </td>
+        <td>
+          <div>Construção</div>
+        </td>
+        <td>
+          <div>1</div>
+        </td>
+        <td class="empresas__cell--status">
+          <div><span>Backlog</span></div>
+        </td>
+        <td class="empresas__cell--risco">
+          <div><span>20%</span></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
