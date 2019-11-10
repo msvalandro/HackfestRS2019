@@ -1,0 +1,41 @@
+.tab-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+.tab-links {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.tab-links a {
+  height: 38px;
+  padding: 0 24px;
+  cursor: pointer;
+
+  opacity: 0.6;
+  min-width: 160px;
+
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  vertical-align: top;
+
+  position: relative;
+  overflow: hidden;
+
+  color: #a6aab4;
+  font-family: Sarabun;
+  display: flex;
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.ink-bar {
+}
