@@ -1,0 +1,163 @@
+.licitacoes {
+  width: 100vw;
+  padding: 0 111px;
+  padding-top: 25px;
+
+  // display: flex;
+  // flex-direction: column;
+
+  &__title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #3b414b;
+  }
+
+  &__input {
+    width: 247px;
+    margin-top: 44px;
+    position: relative;
+
+    input {
+      height: 44px;
+      width: 100%;
+      padding-left: 12px 0;
+      padding-left: 16px;
+      background: #ffffff;
+      border: 0.5px solid #a6aab4;
+      border-radius: 6px;
+      opacity: 0.8;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+
+      color: #a6aab4;
+
+      &:focus {
+        outline: none;
+      }
+
+      input::placeholder,
+      input::-webkit-input-placeholder {
+        color: #a6aab4;
+      }
+    }
+
+    img {
+      background: none;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin-top: 24px;
+    border-spacing: unset;
+
+    th {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #757f8c;
+      text-align: initial;
+      padding-left: 15px;
+      padding-bottom: 12px;
+    }
+
+    tbody {
+      tr {
+        td:first-child div {
+          border-top-left-radius: 6px;
+        }
+
+        td:last-child div {
+          border-top-right-radius: 6px;
+        }
+
+        td:first-child div {
+          border-bottom-left-radius: 6px;
+        }
+
+        td:last-child div {
+          border-bottom-right-radius: 6px;
+        }
+      }
+
+      td {
+        padding-bottom: 8px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #3b414b;
+
+        div {
+          height: 44px;
+          padding: 0 15px;
+          background-color: #fff;
+
+          display: flex;
+          align-items: center;
+        }
+      }
+
+      .licitacoes__cell {
+        &--number {
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: #3b414b;
+        }
+
+        &--status {
+          &.green span {
+            background: #10c971;
+            color: #f9fafb;
+          }
+
+          span {
+            height: 19px;
+            padding: 0 6px;
+            background: #d6d9e4;
+
+            border-radius: 3px;
+          }
+        }
+
+        &--risco {
+          &.red span {
+            background: #ff003d;
+            color: #fff;
+          }
+
+          &.orange span {
+            background: #f68500;
+            color: #fff;
+          }
+
+          &.yellow span {
+            background: #fff500;
+            color: #3b414b;
+          }
+
+          span {
+            height: 19px;
+            width: 45px;
+            background: #d6d9e4;
+            padding: 0 7px;
+            color: #3b414b;
+            border-radius: 50px;
+
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
