@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-licitacoes',
@@ -18,9 +19,11 @@ export class LicitacoesComponent implements OnInit {
     }
   ];
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit() {}
 
-  handleSearch() {}
+  openLicitacao() {
+    this.router.navigate(['/licitacoes/13']);
+  }
 }

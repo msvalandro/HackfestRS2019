@@ -1,0 +1,250 @@
+.licitacao {
+  width: 100vw;
+  padding: 0 111px;
+  padding-top: 25px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      margin-left: 16px;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1px;
+      color: #3b414b;
+    }
+
+    &--arrow {
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      background: #9f79fe;
+      box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__dados {
+    background: #ffffff;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 24px;
+
+    &--top {
+      padding: 14px 2rem;
+      background: rgba(159, 121, 254, 0.3);
+
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--bottom {
+      padding: 0 2rem;
+      padding-top: 14px;
+      padding-bottom: 23px;
+
+      display: flex;
+    }
+
+    &--info {
+      opacity: 1;
+
+      h6 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #757f8c;
+      }
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #9f79fe;
+      }
+    }
+
+    &--valor {
+      margin-right: 44px;
+
+      h6 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #757f8c;
+      }
+
+      p {
+        margin-top: 1rem;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.1px;
+        color: #3b414b;
+      }
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #3b414b;
+        background: #d6d9e4;
+        border-radius: 6px;
+        padding: 0 10px;
+        margin-top: 10px;
+
+        display: flex;
+        align-items: center;
+
+        &.status {
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: #f9fafb;
+          background: #10c971;
+          border-radius: 3px;
+          padding: 0 12px;
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+
+  &__participantes {
+    margin-bottom: 30px;
+
+    h2 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0.1px;
+      color: #463c6a;
+      margin-top: 32px;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin-top: 24px;
+    border-spacing: unset;
+
+    th {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #757f8c;
+      text-align: initial;
+      padding-left: 15px;
+      padding-bottom: 12px;
+    }
+
+    tbody {
+      tr {
+        td:first-child div {
+          border-top-left-radius: 6px;
+        }
+
+        td:last-child div {
+          border-top-right-radius: 6px;
+        }
+
+        td:first-child div {
+          border-bottom-left-radius: 6px;
+        }
+
+        td:last-child div {
+          border-bottom-right-radius: 6px;
+        }
+      }
+
+      td {
+        padding-bottom: 8px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #3b414b;
+
+        div {
+          height: 44px;
+          padding: 0 15px;
+          background-color: #fff;
+          cursor: pointer;
+
+          display: flex;
+          align-items: center;
+
+          img {
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .licitacoes__cell {
+        &--number {
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0.2px;
+          color: #3b414b;
+        }
+
+        &--status {
+          &.green span {
+            background: #10c971;
+            color: #f9fafb;
+          }
+
+          span {
+            height: 19px;
+            padding: 0 6px;
+            background: #d6d9e4;
+
+            border-radius: 3px;
+          }
+        }
+
+        &--risco {
+          &.red span {
+            background: #ff003d;
+            color: #fff;
+          }
+
+          &.orange span {
+            background: #f68500;
+            color: #fff;
+          }
+
+          &.yellow span {
+            background: #fff500;
+            color: #3b414b;
+          }
+
+          span {
+            height: 19px;
+            width: 45px;
+            background: #d6d9e4;
+            padding: 0 7px;
+            color: #3b414b;
+            border-radius: 50px;
+
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

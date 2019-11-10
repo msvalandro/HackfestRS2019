@@ -1,0 +1,213 @@
+<section class="licitacao">
+  <div class="licitacao__title">
+    <div class="licitacao__title--arrow" (click)="backPage()">
+      <img src="assets/img/arrow.svg" alt="Voltar" />
+    </div>
+    <h1>Detalhe da licitação</h1>
+  </div>
+
+  <div class="licitacao__dados">
+    <div class="licitacao__dados--top">
+      <div class="licitacao__dados--info">
+        <h6>Número da licitação:</h6>
+        <span>00051/2016</span>
+      </div>
+
+      <div class="licitacao__dados--info">
+        <h6>Órgão superior:</h6>
+        <span>52000 - MINISTÉRIO DA DEFESA</span>
+      </div>
+
+      <div class="licitacao__dados--info">
+        <h6>Órgão / entidade vinculada:</h6>
+        <span>52111 - COMANDO DA AERONÁUTICA</span>
+      </div>
+
+      <div class="licitacao__dados--info">
+        <h6>Unidade gestora responsável:</h6>
+        <span>120101 - BASE AÉREA DE NATAL</span>
+      </div>
+    </div>
+
+    <div class="licitacao__dados--bottom">
+      <div class="licitacao__dados--valor">
+        <h6>Valor:</h6>
+        <p>R$ 98.850,00</p>
+      </div>
+
+      <div class="licitacao__dados--valor">
+        <h6>Atividade:</h6>
+        <span>Alimentação</span>
+      </div>
+
+      <div class="licitacao__dados--valor">
+        <h6>Status:</h6>
+        <span class="status">Em análise</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="licitacao__participantes">
+    <h2>Participantes da licitação</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>CNPJ</th>
+          <th>Nome</th>
+          <th>Data de abertura</th>
+          <th>Atividade</th>
+          <th>Sócios</th>
+          <th>Status</th>
+          <th>Nível de risco</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="licitacoes__cell--number">
+            <div>11.057.118/0001-72</div>
+          </td>
+          <td>
+            <div>COREMA ALIMENTOS LTDA</div>
+          </td>
+          <td>
+            <div>08/1991</div>
+          </td>
+          <td>
+            <div>Construção</div>
+          </td>
+          <td>
+            <div>
+              2
+              <img src="assets/img/warning.svg" alt="Aviso" />
+            </div>
+          </td>
+          <td class="licitacoes__cell--status">
+            <div><span>Backlog</span></div>
+          </td>
+          <td class="licitacoes__cell--risco red">
+            <div><span>100%</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="licitacoes__cell--number">
+            <div>10.014.760/0001-01</div>
+          </td>
+          <td>
+            <div>JOAO MARINHO DA SILVA & CIA. LTDA.</div>
+          </td>
+          <td>
+            <div>10/2010</div>
+          </td>
+          <td>
+            <div>Alimentação</div>
+          </td>
+          <td>
+            <div>
+              4
+              <img src="assets/img/warning.svg" alt="Aviso" />
+            </div>
+          </td>
+          <td class="licitacoes__cell--status green">
+            <div><span>Em análise</span></div>
+          </td>
+          <td class="licitacoes__cell--risco red">
+            <div><span>100%</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="licitacoes__cell--number">
+            <div>01.611.866/0001-00</div>
+          </td>
+          <td>
+            <div>COREMA ALIMENTOS LTDA</div>
+          </td>
+          <td>
+            <div>07/1980</div>
+          </td>
+          <td>
+            <div>Jardinagem</div>
+          </td>
+          <td>
+            <div>1</div>
+          </td>
+          <td class="licitacoes__cell--status">
+            <div><span>Backlog</span></div>
+          </td>
+          <td class="licitacoes__cell--risco orange">
+            <div><span>75%</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="licitacoes__cell--number">
+            <div>03.210.559/0001-34</div>
+          </td>
+          <td>
+            <div>MEIODIA REFEICOES EIRELI</div>
+          </td>
+          <td>
+            <div>08/2009</div>
+          </td>
+          <td>
+            <div>Construção</div>
+          </td>
+          <td>
+            <div>5</div>
+          </td>
+          <td class="licitacoes__cell--status">
+            <div><span>Backlog</span></div>
+          </td>
+          <td class="licitacoes__cell--risco yellow">
+            <div><span>50%</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="licitacoes__cell--number">
+            <div>07.142.604/0001-11</div>
+          </td>
+          <td>
+            <div>P J REFEICOES COLETIVAS LTDA</div>
+          </td>
+          <td>
+            <div>08/1991</div>
+          </td>
+          <td>
+            <div>Construção</div>
+          </td>
+          <td>
+            <div>3</div>
+          </td>
+          <td class="licitacoes__cell--status">
+            <div><span>Backlog</span></div>
+          </td>
+          <td class="licitacoes__cell--risco">
+            <div><span>30%</span></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="licitacoes__cell--number">
+            <div>18.261.811/0001-01</div>
+          </td>
+          <td>
+            <div>SAMIR CAVALCANTE AUR</div>
+          </td>
+          <td>
+            <div>08/1991</div>
+          </td>
+          <td>
+            <div>Construção</div>
+          </td>
+          <td>
+            <div>1</div>
+          </td>
+          <td class="licitacoes__cell--status">
+            <div><span>Backlog</span></div>
+          </td>
+          <td class="licitacoes__cell--risco">
+            <div><span>20%</span></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
